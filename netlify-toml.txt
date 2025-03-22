@@ -1,0 +1,14 @@
+[build]
+  publish = "/"
+
+[forms]
+  [forms.contact]
+    name = "contact"
+
+[[redirects]]
+  from = "/api/form-submit"
+  to = "https://hook.eu1.make.com/https://hook.eu2.make.com/3ywejjbesmvxcuj893qmqitl838m8xor"
+  status = 200
+  force = true
+  [redirects.headers]
+    Content-Type = "application/json"
